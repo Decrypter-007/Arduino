@@ -29,7 +29,6 @@ const int blue_b = 150;
 
 
 void setup() {
-  // put your setup code here, to run once:
   pinMode(p1, INPUT_PULLUP);
   pinMode(p2, INPUT_PULLUP);
   
@@ -67,7 +66,6 @@ void update_screen(){
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
 
   int p1_reading = digitalRead(p1);
   int p2_reading = digitalRead(p2);
